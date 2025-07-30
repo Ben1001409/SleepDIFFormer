@@ -36,5 +36,10 @@ data/
 ├── [SHHS](https://doi.org/10.1093/sleep/20.12.1077)  
 ├── [P2018](https://doi.org/10.22489/cinc.2018.049)  
 
+### 🏃‍♀️ Run Training
+
+### 🔍 Run Evaluation
+
+
 ## 🧠 Acknowledgments
 This work is heavily based on [SleepDG](https://arxiv.org/abs/2401.05363). Thank all the authors and their contributions.
