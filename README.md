@@ -13,7 +13,7 @@ SleepDIFFormer is a transformer-based framework for automated modeling of multiv
 ### 🧬 Differential Transformer for Multimodal Time-Series 
 We design a transformer-based architecture with differential attention to model the feature fusion and timing dependencies of multimodal, multivariate physiological signals.
 
-### 🧠 EEG/EOG-Based Sleep Stage Classification
+### 💤 EEG/EOG-Based Sleep Stage Classification
 The model processes EEG and EOG signals using CNN-based series embedding and attention-based encoders, effectively capturing intra- and inter-modality patterns for accurate sleep staging.
 
 ### 🌍 Cross-Domain Generalization on Public Datasets
@@ -22,3 +22,8 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 ## 📊 Main Results
 
 <div align=center><img src=figure/result.png width="80%" height="80%"></div>
+
+
+
+## 🧠 Acknowledgments
+This work is heavily based on [SleepDG](https://arxiv.org/abs/2401.05363). Thank all the authors and their contributions.
