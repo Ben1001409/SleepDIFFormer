@@ -7,14 +7,18 @@
 
 <h5 align="center">
 
-## 😮 Highlights
+## 🧩 Introduction
+SleepDIFFormer is a transformer-based framework for automated modeling of multivariate sleep signals across multiple modalities. It is designed to effectively capture cross-modal dependencies and support accurate and robust downstream tasks. SleepDIFFormer has the following three highlights:
 
-### 💡 Radical change in the field of multimodal contrastive learning 
-GRAM learns and then aligns modalities directly in the higher-dimensional space in which modality embeddings lie by minimizing the **Gramian volume of the k-dimensional parallelotope spanned by the modality vectors**, ensuring the geometric alignment of all modalities simultaneously.
+### 🧬 Differential Transformer for Multimodal Time-Series 
+We design a transformer-based architecture with differential attention to model the feature fusion and timing dependencies of multimodal, multivariate physiological signals.
 
-### 🔥 SOTA Performance in almost all retrieval task
-GRAM can replace cosine similarity in any downstream method, holding for 2 to modality and providing more meaningful alignment with respect to previous similarity measures. Moreover, the novel GRAM-based contrastive loss function enhances the alignment of multimodal models in the higher-dimensional embedding space, leading to new state-of-the-art performance in downstream tasks such as video-audio-text retrieval and audio-video classification.
-     
-## 🚀 Main Results
+### 🧠 EEG/EOG-Based Sleep Stage Classification
+The model processes EEG and EOG signals using CNN-based series embedding and attention-based encoders, effectively capturing intra- and inter-modality patterns for accurate sleep staging.
 
-<div align=center><img src=assets/results.png width="75%" height="75%"></div>
+### 🌍 Cross-Domain Generalization on Public Datasets
+To ensure robustness, we evaluate the model on 5 publicly available datasets and apply multi-level domain alignment losses to enhance generalization and outperform existing baselines.
+
+## 📊 Main Results
+
+<div align=center><img src=figure/result.png width="80%" height="80%"></div>
