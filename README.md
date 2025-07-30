@@ -25,7 +25,7 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 
 ## 🚀 Getting Started
 
-### 🔧 Environment Setup
+### ⚙️ Environment Setup
 We follow a Domain Generalization (DG) setup using 4 datasets for training and 1 for testing in rotation. Each input consists of 20 consecutive sleep epochs with 128-dimensional features. The model is trained for 50 epochs with a batch size of 16 using the Adam optimizer (lr = 5e-4) and evaluated by Accuracy and Macro-F1. All experiments are implemented in PyTorch and run on a single RTX 4090 GPU.
 
 ### 📁 Data Preparation
