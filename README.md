@@ -31,8 +31,10 @@ We follow a Domain Generalization (DG) setup using 4 datasets for training and 1
 ### 📁 Data Preparation
 data/  
 ├── [SleepEDFx](https://doi.org/10.1109/10.867928)  
-├── [HMC]( https://doi.org/10.13026/gp48-ea60)  
-
+├── [HMC](https://doi.org/10.13026/gp48-ea60)  
+├── [ISRUC](https://doi.org/10.1016/j.cmpb.2015.10.013)  
+├── [SHHS](https://doi.org/10.1093/sleep/20.12.1077)  
+├── [P2018](https://doi.org/10.22489/cinc.2018.049)  
 
 ## 🧠 Acknowledgments
 This work is heavily based on [SleepDG](https://arxiv.org/abs/2401.05363). Thank all the authors and their contributions.
