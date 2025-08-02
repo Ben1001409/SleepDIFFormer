@@ -59,7 +59,7 @@ def main():
         parser.add_argument("--d_model",type=int,default=128,help="dimension of transformer model")
         parser.add_argument("--patch_len",type=int,default=100,help="patch length for each epoch")
         parser.add_argument("--d_ff",type=int,default=512,help="feedforward dimension")
-        #parser.add_argument("--use_focal",type=bool,default=False,help="whether to use focal loss")
+        parser.add_argument("--use_focal",type=bool,default=False,help="whether to use focal loss")
         params = parser.parse_args()
         print(params)
 
@@ -70,11 +70,6 @@ def main():
     print(accs)
     print(f1s)
     print(np.mean(accs), np.mean(f1s))
-    #viz=Visualization(params)
-    #viz.visualize()
-    ##viz.visualize_correlation()    # Line plots across domains (Isomap)
-    #viz.visualize_cor_seaborn() # sequence feature plot
-
 
 
 def setup_seed(seed):
