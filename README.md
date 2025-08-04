@@ -57,7 +57,13 @@ d_ff 512
 
 ## 🖊️ BibTeX
 ```BibTeX
-
+@article{xxx2025sleepdifformer,
+  author  = {Name},
+  title   = {SleepDIFFormer: Multimodal Differential Transformer for Sleep Staging},
+  journal = {arXiv preprint arXiv:xxxx.xxxxx},
+  year    = {2025}
+}
+```
 
 ## 🧠 Acknowledgments
 This work is heavily based on [SleepDG](https://arxiv.org/abs/2401.05363). Thank all the authors and their contributions.
