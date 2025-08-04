@@ -25,9 +25,6 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 
 ## 🚀 Getting Started
 
-### ⚙️ Environment Setup
-We follow a Domain Generalization (DG) setup using 4 datasets for training and 1 for testing in rotation. Each input consists of 20 consecutive sleep epochs with 128-dimensional features. The model is trained for 50 epochs with a batch size of 16 using the Adam optimizer (lr = 5e-4) and evaluated by Accuracy and Macro-F1. All experiments are implemented in PyTorch and run on a single RTX 4090 GPU.
-
 ### 📁 Data Preparation
 data/  
 ├── [SleepEDFx](https://doi.org/10.1109/10.867928)  
@@ -36,12 +33,10 @@ data/
 ├── [SHHS](https://doi.org/10.1093/sleep/20.12.1077)  
 ├── [P2018](https://doi.org/10.22489/cinc.2018.049)  
 
-### 🏃‍♀️ Run Training
-```python
-python main_5.py
-```
+### ⚙️ Environment Setup
+We follow a Domain Generalization (DG) setup using 4 datasets for training and 1 for testing in rotation. Each input consists of 20 consecutive sleep epochs with 128-dimensional features. The model is trained for 50 epochs with a batch size of 16 using the Adam optimizer (lr = 5e-4) and evaluated by Accuracy and Macro-F1. All experiments are implemented in PyTorch and run on a single RTX 4090 GPU.
 
-🧪 parameters setting
+### 🧪 parameters setting
 ```python
 batch_size 16
 return_attention True
@@ -53,7 +48,13 @@ d_model 128
 d_ff 512
 ```
 
+### 🏃‍♀️ Run Training
+```python
+python main_5.py
+```
+
 ### 🔬 Run Evaluation
+
 
 ## 🖊️ BibTeX
 ```BibTeX
