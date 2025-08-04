@@ -37,8 +37,26 @@ data/
 ├── [P2018](https://doi.org/10.22489/cinc.2018.049)  
 
 ### 🏃‍♀️ Run Training
+```python
+python main_5.py
+```
 
-### 🔍 Run Evaluation
+🧪 parameters setting
+```python
+batch_size 16
+return_attention True
+lr 0.0005
+
+num_heads 4
+num_layers 4
+d_model 128
+d_ff 512
+```
+
+### 🔬 Run Evaluation
+
+## 🖊️ BibTeX
+```BibTeX
 
 
 ## 🧠 Acknowledgments
