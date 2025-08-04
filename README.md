@@ -36,8 +36,11 @@ data/
 ### ⚙️ Environment Setup
 We follow a Domain Generalization (DG) setup using 4 datasets for training and 1 for testing in rotation. Each input consists of 20 consecutive sleep epochs with 128-dimensional features. The model is trained for 50 epochs with a batch size of 16 using the Adam optimizer (lr = 5e-4) and evaluated by Accuracy and Macro-F1. All experiments are implemented in PyTorch and run on a single RTX 4090 GPU.
 
-### 🧪 Parameters Setup
+
+### 🏃‍♀️ Run Training and Evaluation
 ```python
+python main_5.py
+
 batch_size 16
 return_attention True
 lr 0.0005
@@ -48,10 +51,6 @@ d_model 128
 d_ff 512
 ```
 
-### 🏃‍♀️ Run Training and Evaluation
-```python
-python main_5.py
-```
 
 ## 🖊️ BibTeX
 ```BibTeX
