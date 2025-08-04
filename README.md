@@ -48,13 +48,10 @@ d_model 128
 d_ff 512
 ```
 
-### 🏃‍♀️ Run Training
+### 🏃‍♀️ Run Training and Evaluation
 ```python
 python main_5.py
 ```
-
-### 🔬 Run Evaluation
-
 
 ## 🖊️ BibTeX
 ```BibTeX
