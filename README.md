@@ -2,7 +2,7 @@
 
 <h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3>
 
-<div align=center><img src=figure/general.png width="75%" height="75%"></div>
+<div align=center><img src=figure/general.png width="80%" height="80%"></div>
 
 
 <h5 align="center">
