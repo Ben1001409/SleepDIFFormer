@@ -2,7 +2,7 @@
 
 <h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3>
 
-<div align=center><img src=figure/general.png width="80%" height="80%"></div>
+<div align=center><img src=figure/general.png width="95%" height="95%"></div>
 
 
 <h5 align="center">
@@ -21,7 +21,7 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 
 ## 📊 Main Results
 
-<div align=center><img src=figure/result.png width="80%" height="80%"></div>
+<div align=center><img src=figure/result.png width="95%" height="95%"></div>
 
 ## 🚀 Getting Started
 
