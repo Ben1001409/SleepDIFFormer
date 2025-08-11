@@ -8,13 +8,13 @@
 <h5 align="center">
 
 ## 🧩 Introduction
-SleepDIFFormer is a transformer-based framework for automated modeling of multivariate sleep signals across multiple modalities. It is designed to effectively capture cross-modal dependencies and support accurate and robust downstream tasks. SleepDIFFormer has the following three highlights:
+SleepDIFFormer is a transformer-based framework for automated modeling of multivariate sleep signals across multiple modalities. It is designed to effectively mitigate variability in biosignals and provide interpretability of the model through attention weights visualization. SleepDIFFormer has the following three highlights:
 
 ### 🧬 Differential Transformer for Multimodal Time-Series 
-We design a transformer-based architecture with differential attention to model the feature fusion and timing dependencies of multimodal, multivariate physiological signals.
+We design a transformer-based architecture with differential attention to model non-stationarity of multimodal bio-signals under domain generalization settings
 
 ### 💤 EEG/EOG-Based Sleep Stage Classification
-The model processes EEG and EOG signals using CNN-based series embedding and attention-based encoders, effectively capturing intra- and inter-modality patterns for accurate sleep staging.
+The model processes EEG and EOG signals using CNN-based series embedding and attention-based encoders, effectively capturing intra- and inter-modality patterns for accurate sleep staging. It also provides attention weights visualization to identify which part of the signal is suppressed or amplified.
 
 ### 🌍 Cross-Domain Generalization on Public Datasets
 To ensure robustness, we evaluate the model on 5 publicly available datasets and apply multi-level domain alignment losses to enhance generalization and outperform existing baselines.
@@ -41,14 +41,6 @@ We follow a Domain Generalization (DG) setup using 4 datasets for training and 1
 ```python
 python main_5.py --batch_size 16 --return_attention True --lr 0.0005 --num_heads 4 --num_layers 4 --d_model 128 --d_ff 512
 
-batch_size 16
-return_attention True
-lr 0.0005
-
-num_heads 4
-num_layers 4
-d_model 128
-d_ff 512
 ```
 
 
