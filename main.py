@@ -57,7 +57,7 @@ def main():
         parser.add_argument('--num_layers',type=int, default=4,help='number of layers of encoder and decoder layer')
         parser.add_argument('--use_normal',type=bool, default=False, help='whether to use normal attention or diff attention')
         parser.add_argument("--d_model",type=int,default=128,help="dimension of transformer model")
-        #parser.add_argument("--patch_len",type=int,default=100,help="patch length for each epoch")
+        parser.add_argument("--patch_len",type=int,default=100,help="patch length for each epoch")
         parser.add_argument("--d_ff",type=int,default=512,help="feedforward dimension")
         parser.add_argument("--use_focal",type=bool,default=False,help="whether to use focal loss")
         params = parser.parse_args()
