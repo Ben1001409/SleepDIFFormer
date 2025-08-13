@@ -40,7 +40,7 @@ We follow a Domain Generalization (DG) setup using 4 datasets for training and 1
 
 ### 🏃‍♀️ Run Training and Evaluation
 ```python
-python main_5.py --batch_size 16 --return_attention True --lr 0.0005 --num_heads 4 --num_layers 4 --d_model 128 --d_ff 512
+python main.py --batch_size 16 --return_attention True --lr 0.0005 --num_heads 4 --num_layers 4 --d_model 128 --d_ff 512
 
 ```
 
