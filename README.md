@@ -1,6 +1,9 @@
 <h2 align="center"> <a href="https://openreview.net/forum?id=ftGnpZrW7P">SleepDIFFormer</a></h2>
 
 <h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3>
+<a href="[Benjamin1001/SleepDIFFormer](https://huggingface.co/Benjamin1001/SleepDIFFormer/tree/main)" target="_blank">
+    <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=white" alt="Hugging Face Model" />
+</a>
 
 <div align=center><img src=figure/general.png width="95%" height="95%"></div>
 
