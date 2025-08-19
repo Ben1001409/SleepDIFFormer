@@ -11,7 +11,7 @@
 <h5 align="center">
 
 ## 🧩 Introduction
-SleepDIFFormer is a transformer-based framework for automated modeling of multivariate sleep signals across multiple modalities. It is designed to effectively mitigate variability in biosignals and provide interpretability of the model through attention weights visualization. SleepDIFFormer has the following three highlights:
+SleepDIFFormer is a transformer-based framework for automated modeling of sleep signals across multiple modalities. It is designed to effectively mitigate variability in biosignals and provide interpretability of the model through attention weights visualization. SleepDIFFormer has the following three highlights:
 
 ### 🧬 Differential Transformer for Multimodal Time-Series 
 We design a transformer-based architecture with differential attention to model non-stationarity of multimodal bio-signals under domain generalization settings
