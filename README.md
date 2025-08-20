@@ -25,10 +25,10 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 ## 📊 Main Results
 
 <div align=center><img src=figure/result.png width="95%" height="95%"></div>
-In this section, we present the main results of the proposed SleepDIFFormer model on multiple datasets. Our method demonstrates strong generalization and alignment capabilities, achieving state-of-the-art results in most evaluation settings.
+Cross-domain sleep-stage classification performance comparison. TD = target domain. Each column shows results when TD is the test domain and remaining are used for training. Best values are bolded.
 
-### 
 <div align=center><img src=figure/eeg_visual.png width="95%" height="95%"></div>
+ttention weight allocation visualization on EEG and EOG across 4 layers with wake and different sleep stages
 
 
 ## 🚀 Getting Started
