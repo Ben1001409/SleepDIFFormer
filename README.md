@@ -27,6 +27,10 @@ To ensure robustness, we evaluate the model on 5 publicly available datasets and
 <div align=center><img src=figure/result.png width="95%" height="95%"></div>
 In this section, we present the main results of the proposed SleepDIFFormer model on multiple datasets. Our method demonstrates strong generalization and alignment capabilities, achieving state-of-the-art results in most evaluation settings.
 
+### 
+<div align=center><img src=figure/eeg_visual.png width="95%" height="95%"></div>
+
+
 ## 🚀 Getting Started
 
 ### 📁 Data Preparation
