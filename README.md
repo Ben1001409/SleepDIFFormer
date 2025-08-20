@@ -29,7 +29,7 @@ Cross-domain sleep-stage classification performance comparison. TD = target doma
 
 ###  
 <div align=center><img src=figure/eeg_visual.png width="95%" height="95%"></div>
-ttention weight allocation visualization on EEG and EOG across 4 layers with wake and different sleep stages
+Attention weight allocation visualization on EEG and EOG across 4 layers with wake and different sleep stages.
 
 
 ## 🚀 Getting Started
