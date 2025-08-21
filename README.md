@@ -1,9 +1,17 @@
 <h2 align="center"> <a href="https://openreview.net/forum?id=ftGnpZrW7P">SleepDIFFormer</a></h2>
 
 <h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3>
-<h4 align="center"><a href="https://huggingface.co/Benjamin1001/SleepDIFFormer/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Model Checkpoints" />
-</a></h4>
+<h4 align="center">
+    <a href="https://arxiv.org/submit/6724777/view">
+        <img
+          src="https://img.shields.io/badge/SleepDIFFormer-Paper-red?logo=arxiv&logoColor=red"
+          alt="SleepDIFFormer Paper on arXiv"
+        />
+      </a>
+    <a href="https://huggingface.co/Benjamin1001/SleepDIFFormer/tree/main" target="_blank">
+        <img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=yellow" alt="Hugging Face Model Checkpoints" />
+    </a>
+</h4>
 
 <div align=center><img src=figure/general.png width="95%" height="95%"></div>
 
