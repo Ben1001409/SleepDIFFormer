@@ -29,9 +29,9 @@ fig.subplots_adjust(left=0.05, right=0.95, top=0.93, bottom=0.05,
                     wspace=0.05, hspace=0.03)
 for ch in range(2):
     for num in range(0+ch*5,5+ch*5):
-        npz_path = Path(rf"C:\Users\samples\class_{num%5}.npz") #change the path to user's own
+        npz_path = Path(rf"C:\Users\samples\class_{num%5}.npz") 
         sample_idx = num_sample[num%5]
-        # ==== auto-get target_name ====
+       
         target_name = None
         for part in npz_path.parts:
             if part.startswith("saved_sequences_"):
@@ -39,7 +39,7 @@ for ch in range(2):
                 break
         if target_name is None or target_name not in cross_domain_map:
             raise ValueError(f"the legal target domain name is not included in the path（got: {target_name}）")
-        #get dataset index
+        
         match_dataset = re.search(r'dataset_(\d+)', str(npz_path))
         if not match_dataset:
             raise ValueError("can not find dataset index")
@@ -77,9 +77,9 @@ for ch in range(2):
         ax.set_ylim(-4.2, 4.0)
         ax.set_yticks(np.linspace(-4.0, 4.0, 5))
         ax.tick_params(axis='y', direction='in', pad=5)
-        if num!=4 and num!=9: #do not display x-axis coordinate value
+        if num!=4 and num!=9: 
             ax.set_xticklabels([])
-        if num!=5:            #do not display y-axis coordinate value
+        if num!=5:            
             ax.set_yticklabels([])
         for layer_idx in range(4):
             attn_map = attn[layer_idx, sample_idx]
@@ -118,5 +118,6 @@ plt.show()
 plt.close(fig)
 gc.collect()
 print(f"saved: {save_path.name}")
+
 
 
