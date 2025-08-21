@@ -1,6 +1,7 @@
 <h2 align="center"> <a href="">SleepDIFFormer: Sleep Stage Classification via Multivariate Differential Transformer</a></h2>
 
-<h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3>
+<div align=center><img src=figure/Title.png width="45%" height="95%"></div>
+<h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page here</a></h3>
 <h4 align="center">
     <a href="https://arxiv.org/submit/6724777/view">
         <img
