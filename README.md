@@ -1,4 +1,4 @@
-<h2 align="center"> <a href="https://openreview.net/forum?id=ftGnpZrW7P">SleepDIFFormer</a></h2>
+<h2 align="center"> <a href="">SleepDIFFormer: Sleep Stage Classification via Multivariate Differential Transformer</a></h2>
 
 <!-- <h3 align="center"><a href="https://lanxin1105.github.io/SleepDIFFormer-Page/"> 📄 Project page</a></h3> -->
 <h4 align="center">
@@ -72,4 +72,4 @@ python main.py --batch_size 16 --return_attention True --lr 0.0005 --num_heads 4
 ```
 
 ## 🧠 Acknowledgments
-This work is heavily based on [SleepDG](https://arxiv.org/abs/2401.05363). Thank all the authors and their contributions.
+Our implementation drew inspiration from Open-Source [https://github.com/wjq-learning/SleepDG](https://github.com/wjq-learning/SleepDG).
