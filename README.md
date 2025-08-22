@@ -44,7 +44,7 @@ Attention weight allocation visualization on EEG and EOG across 4 layers with wa
 ## 🚀 Getting Started
 
 ### 📁 Data Preparation
-data/  
+datasets  
 ├── [SleepEDFx](https://doi.org/10.1109/10.867928)  
 ├── [HMC](https://doi.org/10.13026/gp48-ea60)  
 ├── [ISRUC](https://doi.org/10.1016/j.cmpb.2015.10.013)  
