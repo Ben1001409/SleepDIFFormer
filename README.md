@@ -4,7 +4,7 @@
 
 <h3 align="center"><a href="https://aimplifier.github.io/projects/sleepdifformer/"> 📄 Project page here</a></h3>
 <h4 align="center">
-    <a href="https://arxiv.org/submit/6724777/view">
+    <a href="https://arxiv.org/abs/2508.15215">
         <img
           src="https://img.shields.io/badge/SleepDIFFormer-Paper-red?logo=arxiv&logoColor=red"
           alt="SleepDIFFormer Paper on arXiv"
