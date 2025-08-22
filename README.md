@@ -65,11 +65,11 @@ python main.py --batch_size 16 --return_attention True --lr 0.0005 --num_heads 4
 
 ## 🖊️ BibTeX
 ```BibTeX
-@article{xxx2025sleepdifformer,
-  author  = {Name},
-  title   = {SleepDIFFormer: Multimodal Differential Transformer for Sleep Staging},
-  journal = {arXiv preprint arXiv:xxxx.xxxxx},
-  year    = {2025}
+@article{2025sleepdifformer,
+    author  = {Benjamin Wei Hao Chin, Yuin Torng Yew, Haocheng Wu, Lanxin Liang, Chow Khuen Chan, Norita Mohd Zain, Siti Balqis Samdin, Sim Kuan Goh},
+    title   = {SleepDIFFormer: Sleep Stage Classification via Multivariate Differential Transformer},
+    journal = {arXiv preprint arXiv:2508.15215},
+    year    = {2025}
 }
 ```
 
