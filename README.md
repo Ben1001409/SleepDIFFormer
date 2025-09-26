@@ -15,7 +15,7 @@
     </a>
 </h4>
 
-<div align=center><img src=figure/general.png width="95%" height="95%"></div>
+<div align=center><img src=figure/general.pdf width="95%" height="95%"></div>
 
 
 <h5 align="center">
